@@ -780,7 +780,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
@@ -1044,4 +1044,18 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .img > img {
+        width: 100%;
+    }
+}
+li {
+    list-style-type: none;
+}
+@media (max-width: 470px) {
+    .img > img {
+        width: 100%;
+    }
+}
+.size > p {
+    font-size: 12px;
 }
